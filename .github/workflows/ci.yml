@@ -17,7 +17,7 @@ jobs:
       - run: python -m ruff format --check apps/api
       - run: python -m pytest apps/api/tests -q
         env:
-          DATABASE_URL: sqlite+pysqlite:///:memory:
+          DATABASE_URL: "sqlite+pysqlite:///:memory:"
           JWT_SECRET: ci-only-secret-with-at-least-32-characters
 
   frontend:
