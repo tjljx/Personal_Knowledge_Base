@@ -1,0 +1,16 @@
+.env
+.env.nas
+.env.selfhost
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+node_modules/
+dist/
+coverage/
+.coverage
+data/
+apps/api/*.egg-info/
+apps/api/pytest-*/
+.pytest-*/

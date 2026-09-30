@@ -1,0 +1,15 @@
+.env
+.env.nas
+.env.selfhost
+.venv
+data
+private
+nas-release.tar.gz
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.ruff_cache
+**/pytest-temp-*
+apps/web/node_modules
+apps/web/dist
+.git
